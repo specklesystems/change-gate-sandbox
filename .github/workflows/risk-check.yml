@@ -31,6 +31,6 @@ jobs:
       contents: read # the floors file, from the default branch and from the head of the pull request
       pull-requests: write # the risk labels and the floor comments
       statuses: write # the risk-check commit status
-    uses: specklesystems/.github/.github/workflows/risk-check.yml@49e4f87e778542c7f74eaf2e0bf18b79ceca6dd5
+    uses: specklesystems/.github/.github/workflows/risk-check.yml@25b0d28c5bfb3a0756c99571ed992aa4b7cd39c4
     with:
       runner: ubuntu-latest
